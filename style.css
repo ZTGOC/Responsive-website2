@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    /* color: hsl(192, 100%, 9%); */
+}
+
+.hero {
+    background-image: url(bg-hero-desktop.svg);
+    width: 100%;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    color: hsl(192, 100%, 9%);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.header button {
+    margin-top: 20px;
+    margin-right: 50px;
+    background-color: white;
+    color: black;
+    padding: 5px 30px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.hero-body {
+    max-width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    width: 50%;
+    /* margin-top: 100px; */
+}
+
+.hero-text h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-text p{
+    font-size: 20px;
+}
+
+.hero-text button{
+    margin-top: 15px;
+    margin-right: 50px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 15px 80px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+img{
+    max-width: 100%;
+    max-height: 80%;
+    object-fit: cover;
+}
+
+.hero-image {
+    height: 700px;
+    width: 700px;
+    margin-top: 50px;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 100px auto;
+    color: hsl(192, 100%, 9%);
+}
+
+.service .myservice{
+    border-radius: 8px;
+    border: 1px solid black;
+    display: flex;
+    max-width: 80%;
+    margin: 20px auto;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.service .myservice .items{
+    /* margin-top: 100px; */
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.service .myservice .items h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.service .myservice .items p{
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+/* .service .myservice .itemsimg{
+    
+} */
+
+.ready{
+    background-color: white;
+    max-width: 60%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    margin: 0px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: hsl(192, 100%, 9%);
+}
+
+.ready h2{
+    font-size: 24px;
+    /* text-align: center; */
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.ready button{
+    /* margin: 20px 0; */
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 20px 80px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.icons{
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.icons-large{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: hsl(192, 100%, 9%);
+    margin-top: -80px;
+    color: white;
+}
+
+.footer-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    padding: 100px 50px;
+    gap: 50px;
+}
+
+.footer-body-first{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: white;
+}
+
+.icon-flex{
+    display: flex;
+    /* margin-bottom: 20px; */
+    gap: 10px;
+}
+
+.footer-body-second{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+    justify-content: center;
+    /* align-items: center; */
+    padding-left: 80px;
+    color: white;
+}
+
+.footer-body-third{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+    justify-content: center;
+    color: white;
+    /* align-items: center; */
+}
+
+.footer-body-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
